@@ -46,9 +46,9 @@ header{
 }
 
 h1, h2, h3{
-	/* center align the text */
-	/* use a web font here (instructions on page) */
-	/* make the heading text all small caps style */
+	text-align: center;/* center align the text */
+	font-family: var(--heading-fonts);/* use a web font here (instructions on page) */
+	font-variant: small-caps;/* make the heading text all small caps style */
 }
 
 h2{
@@ -60,7 +60,7 @@ h2{
 h3{
 	margin: 0;
 	padding: 4px;
-	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
+	text-decoration: solid underline var(--mint) 4px;/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
 }
 
 nav{
